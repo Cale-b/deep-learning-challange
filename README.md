@@ -38,13 +38,20 @@ of 76%.
 ### OPTIMIZATION
 
 #### OPTIMIZATION 1
-TO better optimize this model I doubled the amount of nuerons. That resulted in a slightly lower accuracy of 75.6%, but the 
+TO better optimize this model I doubled the amount of neurons(160 & 60). That resulted in a slightly lower accuracy of 75.6%, but the 
 chart is much more linear showing that increasing the neurons seems to have an impact on the lose calculated.
 
 
 ![Screenshot 2023-05-24 210707](https://github.com/Cale-b/deep-learning-challange/assets/93220886/e9f3cef7-702c-45d7-a5f5-55b7b6dc13d4)
 
 #### OPTIMIZATION 2
+For this optimization i doubled the alreadt doubled amounts of neurons(320 & 120). Doing this seemed to decrease the accuracy to 73%. While
+also making the chart look similar to the original model
+![Screenshot 2023-05-24 220337](https://github.com/Cale-b/deep-learning-challange/assets/93220886/3315bdb3-4615-4b91-b516-919a75a3a373)
 
+## CONCLUSION
+Looking at the charts and accuracy I would recommend that the company start with my first optimization and optimize it further if they wanted better
+resutls.
 
-#### OPTIMIZATION 3
+If i wanted to change the model I'd add more hidden layers, maybe change the activation and also make the loss part of compliing multiple instead of
+binary. These changes could have major changes to my results.
